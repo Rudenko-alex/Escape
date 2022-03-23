@@ -92,6 +92,7 @@
 }
 
 .main-items {
+  margin-top: 22px;
   display: flex;
   width: 940px;
   justify-content: space-between;
@@ -145,6 +146,7 @@
 }
 /*-Most recent-*/
 .most-items {
+  margin-top: 22px;
   display: flex;
   width: 940px;
   justify-content: space-between;
@@ -156,6 +158,7 @@
 .most-item-middle {
   margin-bottom: 2px;
   background-color: #ffffff;
+  min-height: 110px;
 }
 .most-item-header {
   padding: 14px 0 0 13px;
@@ -166,7 +169,7 @@
   color: #101315;
 }
 .most-item-tagline {
-  padding: 6px 0 32px 13px;
+  padding: 6px 0 0 13px;
   font-family: 'Oxygen';
   font-weight: 400;
   font-size: 13px;
